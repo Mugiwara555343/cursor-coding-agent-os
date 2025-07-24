@@ -1,16 +1,25 @@
-## Lean Agent OS MDC Files
+## Lean + Verbose Agent OS MDC Files
 
-This fork streamlines Brian Casel’s original **Agent OS** instruction set for solo builders who need
-fast, low‑token context in tools like Cursor or Claude Code.
+This fork adapts **Brian Casel’s Agent OS** instruction set for solo builders who need
+low‑token speed **where it matters** and rich, self‑documenting detail **where it helps**.
 
 ### What’s different?
-* 📉 60‑80 % smaller files — same behavior, less chatter  
-* 🏃‍♂️ Designed for o3 / o4‑mini budgets  
-* 🔐 Strict execution, rollback, and thinking loops added
+
+| File | Mode | Why |
+|------|------|-----|
+| `analyze-product-v2.mdc` | **Lean** | Fast diagnostics & thinking loop |
+| `execute-tasks-v2.mdc`   | **Lean** | Quick, safe execution; low overhead |
+| `plan-product.mdc`       | **Verbose** | Full architectural context & workflow guidance |
+| `create-spec.mdc`        | **Verbose** | Detailed specification template & decision tree |
+
+- 📉 Lean files are ≈ 60‑80 % smaller — perfect for o3 / o4‑mini budgets  
+- 🛡 Both modes keep strict execution gates, rollback policies, and thinking loops  
+- ⚙️ Swap in verbose files for deeper guidance when collaborating with humans or larger models
 
 ### Credit
-Huge thanks to **Brian Casel** and the [Builder Methods / Agent OS](https://github.com/buildermethods/agent-os) project for the original concept and structure.  
-This repo simply adapts that work for a lean, single‑developer workflow.
+
+Huge thanks to **Brian Casel** and the [Builder Methods / Agent OS](https://github.com/buildermethods/agent-os) project for the original concept and structure.  
+This fork simply tailors that work for a lean, single‑developer workflow — while preserving verbose templates where architectural clarity is valuable.
 
 ___________________________________________________________________________________________________________________________________________________________________________________
 ## Original Agent:
