@@ -12,7 +12,7 @@ fast, low‑token context in tools like Cursor or Claude Code.
 Huge thanks to **Brian Casel** and the [Builder Methods / Agent OS](https://github.com/buildermethods/agent-os) project for the original concept and structure.  
 This repo simply adapts that work for a lean, single‑developer workflow.
 
-
+___________________________________________________________________________________________________________________________________________________________________________________
 ## Original Agent:
 
 [Agent OS](https://buildermethods.com/agent-os) transforms AI coding agents from confused interns into productive developers. With structured workflows that capture your standards, your stack, and the unique details of your codebase, Agent OS gives your agents the specs they need to ship quality code on the first try—not the fifth.
