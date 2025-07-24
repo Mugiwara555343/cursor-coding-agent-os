@@ -1,4 +1,16 @@
-<img width="1280" height="640" alt="agent-os-og" src="https://github.com/user-attachments/assets/e897628e-7063-4bab-a69a-7bb6d7ac8403" />
+## Lean Agent OS MDC Files
+
+This fork streamlines Brian Casel’s original **Agent OS** instruction set for solo builders who need
+fast, low‑token context in tools like Cursor or Claude Code.
+
+### What’s different?
+* 📉 60‑80 % smaller files — same behavior, less chatter  
+* 🏃‍♂️ Designed for o3 / o4‑mini budgets  
+* 🔐 Strict execution, rollback, and thinking loops added
+
+### Credit
+Huge thanks to **Brian Casel** and the [Builder Methods / Agent OS](https://github.com/buildermethods/agent-os) project for the original concept and structure.  
+This repo simply adapts that work for a lean, single‑developer workflow.
 
 ## Your system for spec-driven agentic development.
 
