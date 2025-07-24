@@ -1,5 +1,5 @@
  # Lean vs. Verbose 
-- `analyze‑product` & `execute‑tasks` are lean (<100 lines) for low‑token environments.  
+- `analyze‑product-v2` & `execute‑tasks-v2` are lean (<100 lines) for low‑token environments.  
 - `plan‑product` & `create‑spec` keep the full, verbose templates for architectural clarity.
 
 ## Instructions/what the LLM reads
